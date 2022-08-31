@@ -1,0 +1,21 @@
+rosbag2_bagfile_information:
+  version: 1
+  storage_identifier: sqlite3
+  relative_file_paths:
+    - 2d_lidars_scan.db3
+  duration:
+    nanoseconds: 11115476793
+  starting_time:
+    nanoseconds_since_epoch: 1659592020601251051
+  message_count: 224
+  topics_with_message_count:
+    - topic_metadata:
+        name: /scan1
+        type: sensor_msgs/msg/LaserScan
+        serialization_format: cdr
+      message_count: 112
+    - topic_metadata:
+        name: /scan2
+        type: sensor_msgs/msg/LaserScan
+        serialization_format: cdr
+      message_count: 112
